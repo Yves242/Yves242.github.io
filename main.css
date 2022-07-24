@@ -1,0 +1,375 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+a.actual-link {
+    text-decoration: none;
+    color: darkblue;
+    font-size: 16px;
+}
+
+div.divider {
+    font-size: 17px;
+    color: black;
+    font-weight: normal;
+    margin-top: 12px;
+    margin-bottom: 3px;
+}
+
+div.divider-no-gray {
+    font-size: 17px;
+    color: black;
+    font-weight: normal;
+    margin-top: 12px;
+    margin-bottom: 3px;
+}
+
+a.header {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+img.small-icon {
+    height: 17px; 
+    width: 17px;
+}
+
+img.medium-icon {
+    height: 56px; 
+    width: 56px;
+    border-radius: 5px;
+    border-color: black;
+    border: 1px solid gray;
+}
+
+img.big-rect-icon {
+    height: 70px; 
+    width: auto;
+}
+
+img.medium-icon-post {
+    height: 44px; 
+    width: 44px;
+    border-radius: 5px;
+    border-color: black;
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+#fieldset-sidebar, #fieldset-main {
+    overflow: auto;
+    height: 1001px;
+    width: 1001px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+#header-fieldset{
+    padding: 0;
+    color: white;
+    border: none;
+    background-image: url(https://ak.picdn.net/shutterstock/videos/19165876/thumb/8.jpg);
+    background-size:  cover;
+    width: 100%;
+    height: 8%;
+    position: fixed;
+    margin: auto;
+    margin-left: -0.6%;
+    margin-top: -0.6%;
+    text-align: center;
+    font-size: 19px;
+}
+
+head, body {    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/003/467/246/small/nature-landscape-background-cute-simple-cartoon-style-free-vector.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#fb-icon {
+    width: 19px;
+    height: 19px;
+    margin-top: 0px;
+}
+
+#fb-icon-td {
+    width: 2%;
+    height: 100%;
+}
+
+#search-box-td {
+    width: 34%;
+    height: 100%;
+}
+
+#search-box {
+    width: 99%;
+    height: 40%;
+    margin-bottom: 7px;    
+}
+
+#search-box-icon-td {
+    height: 100%;
+    width: 3.5%;
+    background-color: none;
+    border: none;
+}
+
+#search-box-icon {
+    border-style: none;
+    border-color: gray;
+    width: 31px;
+    height: 19px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+#profile-picture {
+    width: 19px;
+    height: 19px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+#header-profile-navs {
+    width: 23%;
+    height: 100%;
+    text-align: left;
+    background-color: none;
+}
+
+#header-menu-navs {
+    width: 12%;
+    height: 100%;
+    text-align: left;
+    background-color: none;
+}
+
+#header-table {
+    margin-top: 6px;
+    width: 100%;
+    height: 75%;
+}
+
+#fieldset-sidebar {
+    padding: 0;
+    color: black;
+    border-color: green;
+    background-color: none;
+    border: none;
+    width: 16%;
+    height: 88%;
+    position: fixed;
+    margin-left: 7.6%;
+    margin-top: 1%;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#sidebar-opacity-maker {
+    padding: 0;
+    color: black;
+    background-image: url(https://wallpaperaccess.com/full/676550.jpg);
+    opacity: 0.4;
+    border: none;
+    width: 17%;
+    height: 88%;
+    position: fixed;
+    border-radius: 4px;
+    margin-left: 6.6%;
+    margin-top: 4.2%;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#fieldset-main {
+    padding: 0;
+    color: black;
+    border-color: green;
+    background-color: none;
+    border: none;
+    width: 45%;
+    height: 88%;
+    position: fixed;
+    margin-left: 24.2%;
+    margin-top: 1%;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#fieldset-section-ad {
+    padding: 0;
+    color: black;
+    border-color: black;
+    background-color: white;
+    width: 21%;
+    height: 87.6%;
+    position: fixed;
+    margin-left: 69%;
+    margin-top: 1%;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-width: 2px;
+    overflow: auto;
+}
+
+#post-text-area {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 8px 8px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+}
+
+#post-button {
+    border-color: gray;
+    width: 11%;
+    height: auto;
+    padding: 5px 5px;
+    margin-top: 0px;
+    cursor: pointer;  
+    border-radius: 5px;  
+}
+
+div.generic-aligner {
+    margin-top: 6px;
+}
+
+fieldset.fieldset-main-post {
+    border-color: black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+fieldset.post-profile {
+    width: 50%;
+}
+
+div.post-profile-name {
+    font-size: 18px;
+}
+
+div.post-profile-desc {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+img.smaller-icon {
+    height: 11px; 
+    width: 11px;
+}
+
+img.smallest-icon {
+    height: 9px; 
+    width: 9px;
+}
+
+img.post-image {
+    height: auto;
+    width: 100%;
+    border-width: 1px;
+}
+
+button.like-button, button.ad-start-tip, button.friend-button {
+    font-size: 15px;
+    padding: 2px 2px;
+    cursor: pointer;
+}
+
+td.like-button-formatter {
+    text-align: right;
+    background-color: black;
+}
+
+article.post-content {
+    font-weight: 500;
+    margin-left: 1px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+fieldset.post-description {
+    border-color: gray;
+    border-top: none;
+    border-bottom-color: gray;
+    border-width: 1px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+div.video-description {
+    font-weight: 500;
+    margin-left: 1px;
+}
+
+div.likes-comments-shares-styler {
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+button.likes-comments-shares {
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    margin-bottom: 17px
+}
+
+fieldset.post-liner {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    border-color: gray;
+    border-width: 2px;
+}
+
+footer {
+    color: black;
+    font-size: 13px;
+    font-weight: 450;
+    text-align: justify;
+}
+
+.ad-align {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+div.accept-reject {
+    font-size: 12px;
+}
+
+img.ad {
+    width: 100%; 
+    height: auto;
+    border: 1px solid black;
+}
+
+img.ad-no-border {
+    width: 100%; 
+    height: auto;
+}
